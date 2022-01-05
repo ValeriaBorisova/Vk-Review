@@ -5,18 +5,10 @@ import ru.netology.domain.Post;
 public class PostManager {
     private Post[] posts;
 
-    public Post[] getPostsForFeed() {
-        // TODO: add logic
+    public Post[] search(int ownerID, String domain, String query, boolean ownersOnly, byte count, int offset) {
         return null;
     }
 
-    public Post[] search(Id, ownerId, text){
-        // TODO: add logic
-        return null;
-    }
-
-    public Object delete (Id,ownerId, text) {
-        // TODO: add logic
-        return null;
+    public void delete(int ownerID, int postID) {
     }
 }
